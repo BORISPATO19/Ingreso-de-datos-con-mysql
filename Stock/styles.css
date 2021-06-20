@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: #275252;
+}
+.texto h1{
+    color:white;
+}
+.tabla a{
+    color:white;
+
+}
+.texto a{
+    color:white;
+}
+
+.started{
+    position:relative;
+    left:-300px;
+    top:100px;
+    
+}
+
+.start{
+    background-color: rgb(57, 58, 57);
+    width:320px;
+    height: 300px;
+    padding:10px;
+    position:relative;
+    top:-100px;
+    right: -100px;
+    border-radius: 10px;
+    border:none;
+    
+}
+.station input{
+    width: 30px;
+    height: 30px; 
+    position: relative;
+    left:-85px; 
+    top:5px;
+}
+.station-one input{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left:-40px;
+    top:-313px;
+}
+.station-two input{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left:5px;
+    top:-631px;
+}
+.station-tree input{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left:50px;
+    top:-949px;
+}
+.station-four input{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left:95px;
+    top:-1265px;
+}
+.steer{
+    background: #f5221a;
+    position: relative;
+    top:-80px;
+    left:100px;
+    border:none;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    color:white;
+}
+.tabla{
+    padding:10px;
+    color:white;
+}
+.table-striped{
+    padding: 5px;
+    width: 100%;
+    background: rgb(107, 104, 104);
+
+}
+/*--------Buscador------*/
+.form_search{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    float:right;
+    background: initial;
+    padding:10px;
+    border-radius: 10px;
+}
+.form_search .btn_search{
+    background: #1faac8;
+    color:#FFF;
+    padding: 0 20px;
+    border:0;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+/*.starwars{
+    position: relative;
+    left:-300px;
+    
+}
+.contain{
+    position: relative;
+    right: 200;
+    top:-320px;
+}*/
+.contain tr td input{
+    width: 40px;
+}
+
